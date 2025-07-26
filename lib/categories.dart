@@ -14,13 +14,13 @@ class CategoriesScreen extends StatelessWidget {
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
         ),
-        children: [
-          Text('1'),
-          Text('2'),
-          Text('3'),
-          Text('4'),
-          Text('5'),
-          Text('6'),
+        children: const [
+          Text('1', style: TextStyle(color: Colors.white)),
+          Text('2', style: TextStyle(color: Colors.white)),
+          Text('3', style: TextStyle(color: Colors.white)),
+          Text('4', style: TextStyle(color: Colors.white)),
+          Text('5', style: TextStyle(color: Colors.white)),
+          Text('6', style: TextStyle(color: Colors.white)),
         ],
       ),
     );
