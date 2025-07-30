@@ -12,7 +12,7 @@ class CategoriesScreen extends StatelessWidget {
           crossAxisCount: 2,
           childAspectRatio: 3 / 2,
           crossAxisSpacing: 20,
-          mainAxisSpacing: 22,
+          mainAxisSpacing: 20,
         ),
         children: const [
           Text('1', style: TextStyle(color: Colors.white)),
