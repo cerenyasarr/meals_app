@@ -9,7 +9,9 @@ class CategoryGridItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
+    return InkWell(
+      onTap: () {},
+      splashColor: Theme.of(context).primaryColor,
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
