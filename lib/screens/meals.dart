@@ -13,8 +13,15 @@ class MealsScreen extends StatelessWidget {
     Widget content = ListView.builder(
         itemBuilder: (ctx, index) => Text(meals[index].title),
       );
-      
-    if (meals.isEmpty) {}
+
+    if (meals.isEmpty) {
+      content = Center(child: Column(mainAxisSize: MainAxisSize.min,
+      children: [
+        Text('Uh oh ... nothing here!'),
+        SizedBox(height: 16),
+        Text('Try selecting a different category!'),
+      ],),);
+    }
     return Scaffold(
       appBar: AppBar(title: Text(title)),
       body: 
