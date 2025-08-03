@@ -21,7 +21,7 @@ class MealsScreen extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text('Uh oh ... nothing here.'),
-            const SizedBox(height: 16),
+            const SizedBox(height: 15),
             Text(
               'Try selecting a different category!',
               style: Theme.of(context).textTheme.headlineLarge!.copyWith(
