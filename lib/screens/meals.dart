@@ -20,7 +20,7 @@ class MealsScreen extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text('Uh oh ... nothing here.'),
+            Text('Uh oh ... nothing here'),
             const SizedBox(height: 15),
             Text(
               'Try selecting a different category!',
