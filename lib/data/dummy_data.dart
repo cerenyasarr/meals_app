@@ -8,7 +8,7 @@ const availableCategories = [
   Category(
     id: 'c1',
     title: 'Italian',
-    color: Color.fromARGB(255, 204, 44, 232),
+    color: Color.fromARGB(255, 205, 44, 232),
   ),
   Category(id: 'c2', title: 'Quick & Easy', color: Colors.red),
   Category(id: 'c3', title: 'Hamburgers', color: Colors.orange),
