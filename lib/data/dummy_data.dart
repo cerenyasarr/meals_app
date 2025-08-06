@@ -133,7 +133,7 @@ const dummyMeals = [
       '300ml Butter',
       '100g Vegetable Oil',
       'Salt',
-      'Lemon',
+      'Lemon Slices',
     ],
     steps: [
       'Tenderize the veal to about 2–4mm, and salt on both sides.',
