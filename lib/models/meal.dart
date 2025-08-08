@@ -14,7 +14,7 @@ class Meal {
     required this.complexity,
     required this.affordability,
     required this.isGlutenFree,
-
+    required this.isLactoseFree,
     required this.isVegan,
     required this.isVegetarian,
   });
