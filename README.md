@@ -30,3 +30,4 @@ This app displays a variety of meal categories (e.g., Italian, German, Asian) an
 - State management via widget state
 
 ## 📂 Folder Structure
+*...*
