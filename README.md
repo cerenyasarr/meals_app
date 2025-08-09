@@ -19,11 +19,6 @@ This app displays a variety of meal categories (e.g., Italian, German, Asian) an
   - Vegan
   - Vegetarian
 - Responsive, clean UI with category-based color themes.
-	•	Dynamic Category Grid – Displays categories in a 2-column responsive grid layout.
-	•	Reusable Components – Category cards are built with a reusable CategoryGridItem widget.
-	•	Local Data Source – Categories are loaded from dummy_data.dart for easy customization.
-	•	Clean UI Layout – Consistent padding (EdgeInsets.all(23)) and spacing for a neat look.
-	•	Guided Navigation – AppBar title (“Pick your category.”) clearly indicates the current screen’s purpose.
 
 ## 📸 Screenshots
 *(Add screenshots here)*
