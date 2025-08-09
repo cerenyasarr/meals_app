@@ -1,17 +1,32 @@
 # Meals App 🍽️
 
-A simple Flutter app to browse meal categories and recipes.
+A simple Flutter application that allows users to browse meals by category, view detailed recipes, and apply dietary filters.
 
-## 🚀 Features
-- Display meal categories in a grid view
-- View meals for each category
-- Detailed recipe page
-- Filtering (gluten-free, lactose-free, vegan, vegetarian)
-- Modern Material 3 theme
+## 📌 Overview
+This app displays a variety of meal categories (e.g., Italian, German, Asian) and lets you explore meals in each category. Users can view ingredients, preparation steps, and filter meals based on dietary preferences.
 
-## 📱 Screenshots
-*(Screenshots to be added)*
+## ✨ Features
+- View a grid of meal categories.
+- Browse meals by selected category.
+- Detailed meal pages with:
+  - Ingredients
+  - Step-by-step cooking instructions
+  - Duration
+  - Complexity & affordability indicators
+- Dietary filters:
+  - Gluten-free
+  - Lactose-free
+  - Vegan
+  - Vegetarian
+- Responsive, clean UI with category-based color themes.
 
-## 🛠️ Technologies Used
-- Flutter (Dart)
-- Material Design
+## 📸 Screenshots
+*(Add screenshots here)*
+
+## 🛠️ Tech Stack
+- **Flutter** (Dart)
+- **Material Design**
+- Custom Models for Category & Meal
+- State management via widget state
+
+## 📂 Folder Structure
