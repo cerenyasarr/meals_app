@@ -21,7 +21,7 @@ This app displays a variety of meal categories (e.g., Italian, German, Asian) an
 - Responsive, clean UI with category-based color themes.
 
 ## 📸 Screenshots
-*(Add screenshots here)*
+*...*
 
 ## 🛠️ Tech Stack
 - **Flutter** (Dart)
