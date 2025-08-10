@@ -6,7 +6,7 @@ class CategoriesScreen extends StatelessWidget {
   const CategoriesScreen({super.key});
 
   void _selectCategory(BuildContext context) {
-    Navigator.of(context).push(route);
+    Navigator.of(context).push(route); // Navigator.push(context, route)
   }
 
   @override
