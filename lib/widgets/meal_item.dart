@@ -9,6 +9,8 @@ class MealItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card();
+    return Card(
+      child: InkWell(onTap: () {}, child: Stack()),
+    );
   }
 }
