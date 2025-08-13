@@ -31,7 +31,12 @@ class MealItem extends StatelessWidget {
                 ),
                 child: Column(
                   children: [
-                    Text(meal.title, maxLines: 2),
+                    Text(
+                      meal.title,
+                      maxLines: 2,
+                      textAlign: TextAlign.center,
+                      softWrap: true,
+                    ),
                     const SizedBox(height: 12),
                     Row(children: []),
                   ],
