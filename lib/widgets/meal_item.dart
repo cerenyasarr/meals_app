@@ -30,7 +30,11 @@ class MealItem extends StatelessWidget {
                   horizontal: 44,
                 ),
                 child: Column(
-                  children: [Text('Title'), const SizedBox(height: 12)],
+                  children: [
+                    Text(meal.title),
+                    const SizedBox(height: 12),
+                    Row(children: []),
+                  ],
                 ),
               ),
             ),
