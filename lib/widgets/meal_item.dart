@@ -19,7 +19,12 @@ class MealItem extends StatelessWidget {
               placeholder: MemoryImage(kTransparentImage),
               image: NetworkImage(meal.imageUrl),
             ),
-            Positioned(bottom: 0, left: 0, right: 0, child: Container()),
+            Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Container(color: Colors.black54),
+            ),
           ],
         ),
       ),
