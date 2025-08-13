@@ -29,7 +29,9 @@ class MealItem extends StatelessWidget {
                   vertical: 6,
                   horizontal: 44,
                 ),
-                child: Column(),
+                child: Column(
+                  children: [Text('Title'), const SizedBox(height: 12)],
+                ),
               ),
             ),
           ],
