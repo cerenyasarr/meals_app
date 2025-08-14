@@ -37,6 +37,7 @@ class MealItem extends StatelessWidget {
                       textAlign: TextAlign.center,
                       softWrap: true,
                       overflow: TextOverflow.ellipsis, // Very long text...
+                      style: TextStyle(fontSize: 20),
                     ),
                     const SizedBox(height: 12),
                     Row(children: []),
