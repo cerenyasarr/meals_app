@@ -16,6 +16,7 @@ class MealItem extends StatelessWidget {
         borderRadius: BorderRadiusGeometry.circular(8),
       ),
       clipBehavior: Clip.hardEdge,
+      elevation: 2,
       child: InkWell(
         onTap: () {},
         child: Stack(
