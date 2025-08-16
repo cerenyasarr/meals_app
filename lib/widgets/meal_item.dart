@@ -55,7 +55,9 @@ class MealItem extends StatelessWidget {
                     ),
                     const SizedBox(height: 12),
                     Row(
-                      children: [MealItemTrait(icon: icon, label: label)],
+                      children: [
+                        MealItemTrait(icon: Icons.schedule, label: label),
+                      ],
                     ),
                   ],
                 ),
