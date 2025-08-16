@@ -53,7 +53,7 @@ class MealItem extends StatelessWidget {
                         color: const Color.fromARGB(255, 214, 199, 199),
                       ),
                     ),
-                    const SizedBox(height: 12),
+                    const SizedBox(height: 13),
                     Row(
                       children: [
                         MealItemTrait(
