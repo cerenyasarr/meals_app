@@ -11,7 +11,7 @@ class MealItemTrait extends StatelessWidget {
     return Row(
       children: [
         Icon(icon, size: 16, color: Colors.white),
-        const SizedBox(width: 6),
+        SizedBox(width: 6),
         Text(label, style: TextStyle(color: Colors.white)),
       ],
     );
