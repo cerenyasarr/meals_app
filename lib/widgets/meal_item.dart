@@ -10,7 +10,8 @@ class MealItem extends StatelessWidget {
   final Meal meal;
 
   String get complexityText {
-    return meal.complexity.name[0].toUpperCase();
+    return meal.complexity.name[0].toUpperCase() +
+        meal.complexity.name.substring(1);
   }
 
   @override
