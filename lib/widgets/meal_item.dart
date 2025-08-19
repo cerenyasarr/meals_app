@@ -56,9 +56,11 @@ class MealItem extends StatelessWidget {
                     const SizedBox(height: 13),
                     Row(
                       children: [
-                        MealItemTrait(
-                          icon: Icons.schedule,
-                          label: '${meal.duration}.min',
+                        Expanded(
+                          child: MealItemTrait(
+                            icon: Icons.schedule,
+                            label: '${meal.duration}.min',
+                          ),
                         ),
                       ],
                     ),
