@@ -63,8 +63,9 @@ class MealItem extends StatelessWidget {
                         color: const Color.fromARGB(255, 214, 199, 199),
                       ),
                     ),
-                    const SizedBox(height: 13),
+                    const SizedBox(height: 12),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         MealItemTrait(
                           icon: Icons.schedule,
