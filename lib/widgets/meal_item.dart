@@ -9,6 +9,10 @@ class MealItem extends StatelessWidget {
 
   final Meal meal;
 
+  String get complexityText {
+    return meal.complexity.name[0].toUpperCase();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Card(
