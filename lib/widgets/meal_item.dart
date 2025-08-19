@@ -60,6 +60,7 @@ class MealItem extends StatelessWidget {
                           icon: Icons.schedule,
                           label: '${meal.duration}.min',
                         ),
+                        SizedBox(width: 12),
                       ],
                     ),
                   ],
