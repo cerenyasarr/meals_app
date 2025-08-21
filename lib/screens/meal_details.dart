@@ -8,6 +8,9 @@ class MealDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title: Text(meal.title)));
+    return Scaffold(
+      appBar: AppBar(title: Text(meal.title)),
+      body: Image.network(meal.imageUrl),
+    );
   }
 }
