@@ -10,7 +10,12 @@ class MealDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(meal.title)),
-      body: Image.network(meal.imageUrl, height: 300, width: double.infinity),
+      body: Image.network(
+        meal.imageUrl,
+        height: 300,
+        width: double.infinity,
+        fit: BoxFit.cover,
+      ),
     );
   }
 }
