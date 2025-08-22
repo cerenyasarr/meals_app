@@ -9,6 +9,8 @@ class MealsScreen extends StatelessWidget {
   final String title;
   final List<Meal> meals;
 
+  void selectMeal(Meal meal){}
+  
   @override
   Widget build(BuildContext context) {
     Widget content = ListView.builder(
@@ -40,7 +42,8 @@ class MealsScreen extends StatelessWidget {
       if (meals.isNotEmpty) {
         content = ListView.builder(
           itemCount: meals.length,
-          itemBuilder: (ctx, index) => MealItem(meal: meals[index]),
+          itemBuilder: (ctx, index) => MealItem(meal: meals[index],
+          onSelectMeal: ,),
         );
       }
     }
