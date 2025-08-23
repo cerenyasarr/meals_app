@@ -19,6 +19,10 @@ class MealDetailsScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           const SizedBox(height: 14),
+          Text(
+            'Ingredients',
+            style: Theme.of(context).textTheme.titleLarge!.copyWith(),
+          ),
         ],
       ),
     );
