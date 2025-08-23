@@ -18,6 +18,7 @@ class MealDetailsScreen extends StatelessWidget {
             width: double.infinity,
             fit: BoxFit.cover,
           ),
+          const SizedBox(height: 14),
         ],
       ),
     );
