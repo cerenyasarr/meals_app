@@ -22,7 +22,7 @@ class MealDetailsScreen extends StatelessWidget {
           Text(
             'Ingredients',
             style: Theme.of(context).textTheme.titleLarge!.copyWith(
-              color: Theme.of(context).colorScheme.onBackground,
+              color: Theme.of(context).colorScheme.surface,
             ),
           ),
         ],
