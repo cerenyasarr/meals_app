@@ -42,6 +42,14 @@ class MealDetailsScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          const SizedBox(height: 14),
+          for (final step in meal.steps)
+            Text(
+              step,
+              style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+                color: Theme.of(context).colorScheme.surface,
+              ),
+            ),
         ],
       ),
     );
