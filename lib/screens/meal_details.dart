@@ -25,6 +25,7 @@ class MealDetailsScreen extends StatelessWidget {
               color: Theme.of(context).colorScheme.surface,
             ),
           ),
+          for (final ingredient in meal.ingredients) Text(ingredient),
         ],
       ),
     );
