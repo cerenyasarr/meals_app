@@ -63,7 +63,7 @@ class MealItem extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 21,
                         fontWeight: FontWeight.bold,
-                        color: const Color.fromARGB(255, 214, 199, 199),
+                        color: const Color.fromARGB(255, 223, 213, 213),
                       ),
                     ),
                     const SizedBox(height: 12),
