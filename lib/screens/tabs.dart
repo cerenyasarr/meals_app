@@ -8,3 +8,15 @@ class TabsScreen extends StatefulWidget {
     return _TabsScreenState();
   }
 }
+
+class _TabsScreenState extends State<TabsScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('dynamic...'),
+      ),
+      body: ...,
+    );
+  }
+}
