@@ -17,6 +17,9 @@ class _TabsScreenState extends State<TabsScreen> {
         title: Text('dynamic...'),
       ),
       body: ...,
+      bottomNavigationBar: BottomNavigationBar(
+        onTap: (index) {},
+      ),
     );
   }
 }
