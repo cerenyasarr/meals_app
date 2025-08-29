@@ -24,20 +24,24 @@ class _TabsScreenState extends State<TabsScreen> {
   Widget build(BuildContext context) {
     Widget activePage = const CategoriesScreen();
 
-    if (_selectedPageIndex == 1){
+    if (_selectedPageIndex == 1) {
       activePage = MealsScreen(title: 'Favorites', meals: []);
     }
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text('dynamic...'),
-      ),
-      body: ...,
+      appBar: AppBar(title: Text('dynamic...')),
+      body: activePage,
       bottomNavigationBar: BottomNavigationBar(
         onTap: (index) {},
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.set_meal) , label: 'Categories'),
-          BottomNavigationBarItem(icon: Icon(Icons.set_meal) , label: 'Favorites'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.set_meal),
+            label: 'Categories',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.set_meal),
+            label: 'Favorites',
+          ),
         ],
       ),
     );
