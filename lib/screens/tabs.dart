@@ -21,7 +21,7 @@ class _TabsScreenState extends State<TabsScreen> {
         onTap: (index) {},
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.set_meal) , label: 'Categories'),
-          BottomNavigationBarItem(icon: , label: ),
+          BottomNavigationBarItem(icon: Icon(Icons.set_meal) , label: 'Favorites'),
         ],
       ),
     );
