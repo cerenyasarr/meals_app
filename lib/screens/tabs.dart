@@ -19,6 +19,10 @@ class _TabsScreenState extends State<TabsScreen> {
       body: ...,
       bottomNavigationBar: BottomNavigationBar(
         onTap: (index) {},
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.set_meal) , label: 'Categori' ),
+          BottomNavigationBarItem(icon: , label: ),
+        ],
       ),
     );
   }
