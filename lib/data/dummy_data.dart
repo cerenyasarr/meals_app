@@ -296,7 +296,7 @@ const dummyMeals = [
       '4 1/3 tablespoons cold Milk',
       '1 Pinch Salt',
       '1 Pinch Cayenne Pepper',
-      '1 Large Egg Yolk',
+      '2 Large Egg Yolk',
       '2 Large Egg Whites',
       '1 Pinch Cream of Tartar',
       '1 Tablespoon white Sugar',
