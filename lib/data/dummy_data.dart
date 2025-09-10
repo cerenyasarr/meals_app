@@ -328,7 +328,7 @@ const dummyMeals = [
   Meal(
     id: 'm10',
     categories: ['c2', 'c5', 'c10'],
-    title: 'Asparagus Salads with Cherry Tomatoes',
+    title: 'Asparagus Salad with Cherry Tomatoes',
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
