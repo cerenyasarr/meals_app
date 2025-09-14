@@ -23,7 +23,7 @@ class MealItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.all(7),
+      margin: const EdgeInsets.all(6),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadiusGeometry.circular(8),
       ),
