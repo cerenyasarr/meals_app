@@ -56,7 +56,7 @@ class MealItem extends StatelessWidget {
                   children: [
                     Text(
                       meal.title,
-                      maxLines: 2,
+                      maxLines: 3,
                       textAlign: TextAlign.center,
                       softWrap: true,
                       overflow: TextOverflow.ellipsis,
