@@ -56,12 +56,12 @@ class MealItem extends StatelessWidget {
                   children: [
                     Text(
                       meal.title,
-                      maxLines: 3,
+                      maxLines: 2,
                       textAlign: TextAlign.center,
                       softWrap: true,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
-                        fontSize: 23,
+                        fontSize: 22,
                         fontWeight: FontWeight.bold,
                         color: const Color.fromARGB(255, 235, 225, 225),
                       ),
