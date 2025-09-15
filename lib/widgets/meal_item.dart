@@ -39,7 +39,7 @@ class MealItem extends StatelessWidget {
               placeholder: MemoryImage(kTransparentImage),
               image: NetworkImage(meal.imageUrl),
               fit: BoxFit.cover,
-              height: 205,
+              height: 206,
               width: double.infinity,
             ),
             Positioned(
