@@ -269,7 +269,7 @@ const dummyMeals = [
       'Slice and fry the chicken breast',
       'Process onion, garlic and ginger into paste and sauté everything',
       'Add spices and stir fry',
-      'Add chicken breast + 250ml of water and cook everything for 10 minutes',
+      'Add chicken breast+250ml of water and cook everything for 10 minutes',
       'Add coconut milk',
       'Serve with rice',
     ],
