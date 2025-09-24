@@ -22,7 +22,7 @@ class MainDrawer extends StatelessWidget {
                 end: Alignment.bottomRight,
               ),
             ),
-            child: Row(children: [Icon(), const SizedBox(), Text()]),
+            child: Row(children: [Icon(), const SizedBox(width: 18), Text()]),
           ),
         ],
       ),
