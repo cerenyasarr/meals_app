@@ -6,8 +6,15 @@ class MainDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: 
-      
-    ),
+      child: Column(
+        children: [
+          DrawerHeader(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+            child: child,
+          ),
+        ],
+      ),
+    );
   }
 }
