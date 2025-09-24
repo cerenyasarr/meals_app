@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meals_app/main.dart';
 
 class MainDrawer extends StatelessWidget {
   const MainDrawer({super.key});
@@ -32,7 +33,9 @@ class MainDrawer extends StatelessWidget {
                 const SizedBox(width: 18),
                 Text(
                   'Cooking Up!',
-                  style: Theme.of(context).textTheme.titleLarge,
+                  style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
                 ),
               ],
             ),
