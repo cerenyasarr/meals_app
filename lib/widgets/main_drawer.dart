@@ -27,7 +27,7 @@ class MainDrawer extends StatelessWidget {
               children: [
                 Icon(
                   Icons.fastfood,
-                  size: 48,
+                  size: 49,
                   color: Theme.of(context).colorScheme.primary,
                 ),
                 const SizedBox(width: 18),
