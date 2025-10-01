@@ -10,7 +10,7 @@ class MealsScreen extends StatelessWidget {
     this.title,
     required this.meals,
     required this.onToggleFavorite,
-  });
+  }); 
 
   final String? title;
   final List<Meal> meals;
