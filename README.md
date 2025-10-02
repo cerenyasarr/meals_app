@@ -18,9 +18,6 @@ This app displays a variety of meal categories and lets you explore meals in eac
   - Vegetarian
 - Responsive, clean UI with category-based color themes.
 
-## 📸 Screenshots
-*...*
-
 ## 🛠️ Tech Stack
 - **Flutter** (Dart)
 - **Material Design**
