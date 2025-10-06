@@ -1,6 +1,6 @@
 # Meals App 🍽️
 
-A Flutter application that allows users to browse meals by category, view detailed recipes, and apply dietary filters.
+A simple Flutter application that allows users to browse meals by category, view detailed recipes, and apply dietary filters.
 
 ## 📌 Overview
 This app displays a variety of meal categories and lets you explore meals in each category. Users can view ingredients, preparation steps, and filter meals based on dietary preferences.
