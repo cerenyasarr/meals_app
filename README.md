@@ -14,7 +14,6 @@ This app displays a variety of meal categories and lets you explore meals in eac
   - Duration
   - Complexity & affordability indicators
 - Dietary filters:
-  - Vegan
   - Vegetarian
 - Responsive, clean UI with category-based color themes.
 
