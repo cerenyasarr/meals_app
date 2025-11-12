@@ -1,4 +1,4 @@
-# Meals App 🍽️
+# Meals App 🍽️ 
 
 A simple Flutter application that allows users to browse meals by category, view detailed recipes, and apply dietary filters. 
 
