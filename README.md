@@ -18,7 +18,7 @@ This app displays a variety of meal categories and lets you explore meals in eac
 - Responsive, clean UI with category-based color themes.
 
 ## 🛠️ Tech Stack
-- **Flutter** (Dart)
-- **Material Design** 
+- Flutter (Dart)
+- Material Design 
 - Custom Models for Category & Meal
 - State management via widget state
